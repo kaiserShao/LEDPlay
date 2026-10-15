@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="title">ESP32 控制器</view>
+
+  <view class="status">状态：{{statusText}}</view>
+
+  <button class="btn" bindtap="connect" disabled="{{connected}}">连接 ESP32</button>
+  <button class="btn send" bindtap="sendMessage" disabled="{{!connected || isSending}}">
+    {{isSending ? '发送中...' : '发送：你好，我是主机'}}
+  </button>
+  <button class="btn disconnect" bindtap="disconnect" disabled="{{!connected}}">断开连接</button>
+
+  <view class="log" wx:if="{{logText}}">{{logText}}</view>
+</view>

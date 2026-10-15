@@ -1,0 +1,97 @@
+# =============================================================================
+#  灯带消消乐 —— 代码格式化规则(VSCode 保存时自动套用)
+#
+#  设计目标: 让"保存时格式化"的结果尽量贴近本工程既有手写风格, 不产生大量
+#            无意义的重排; 规则只做两件"必须统一"的事:
+#              1) 大括号一律换行(Allman)  —— Keil/MDK 用户最熟悉的写法
+#              2) 文件末尾必须有一个换行  —— 避免 Keil 编译器警告 "last line
+#                 of file ends without a newline"
+#
+#  想预览效果(不改文件):  clang-format --style=file --dry-run Src/drv_key.c
+#  想整工程格式化一次:    clang-format --style=file -i Src/*.c Inc/*.h
+#
+#  【已知行为】保存时只有"排版"会被调整, 语义绝不变; 其中两处样子会变:
+#    1) Inc/bsp_config.h 里 #define 的值那一列: clang-format 只会把一组连续的
+#       宏对齐成"最长宏名 + 1 空格", 无法保留"值统一从第 30 列开始"的手工排版,
+#       所以第一次保存这个文件时宏值列会整体左移。功能无影响。
+#    2) 行尾注释若原来是对齐成列的, 会被重新对齐(Kind: Leave 已尽量少动)。
+#  其余文件(如 Src/main.c、Src/bsp_rtos.c)实测与现有格式完全一致(0 差异)。
+# =============================================================================
+Language:        Cpp
+BasedOnStyle:    LLVM
+
+# ----------------------------- 基本排版 --------------------------------------
+IndentWidth:                 4         # 缩进 4 空格(与现有代码一致)
+TabWidth:                    4
+UseTab:                      Never     # 禁止 Tab, 避免 Keil 与 VSCode 显示不一致
+ColumnLimit:                 120
+Standard:                    c++03
+
+# ----------------------------- 大括号(Allman) --------------------------------
+BreakBeforeBraces:           Custom    # 用下面的 BraceWrapping 精确描述 Allman
+BraceWrapping:
+    # 下面这一组 = Allman(大括号一律换行), 只有 extern "C" { 例外(保持同行,
+    # 避免每个头文件都多出一行孤零零的 '{')。
+    AfterCaseLabel:          false
+    AfterClass:              true
+    AfterControlStatement:   Always    # if/for/while/switch 都换行
+    AfterEnum:               true
+    AfterExternBlock:        false     # extern "C" {  -> 保持同行
+    AfterFunction:           true
+    AfterNamespace:          true
+    AfterObjCDeclaration:    true
+    AfterStruct:             true
+    AfterUnion:              true
+    BeforeCatch:             true
+    BeforeElse:              true
+    BeforeLambdaBody:        false
+    BeforeWhile:             false
+    IndentBraces:            false
+    SplitEmptyFunction:      true
+    SplitEmptyRecord:        true
+    SplitEmptyNamespace:     true
+AllowShortFunctionsOnASingleLine: None # { ... } 不允许写在同一行
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Never
+IndentCaseLabels:            false     # switch 里的 case 与 switch 对齐
+
+# ----------------------------- 空白/空行 -------------------------------------
+SpaceBeforeParens:           ControlStatements
+SpaceInEmptyParentheses:     false
+SpacesInParentheses:         false
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep:         1
+
+# ----------------------------- 指针/引用 -------------------------------------
+PointerAlignment:            Right     # const uint8_t *buf (星号靠变量)
+
+# ----------------------------- 注释 -----------------------------------------
+ReflowComments:              false     # 中文注释不重排, 保持手工换行
+# Kind: Leave = "原来没对齐的注释不要动", 这样保存时不会把你手工排好版的行尾
+# 注释重新拉成另一列(实测能把无意义改动减少一半以上)。
+AlignTrailingComments:
+    Kind:                    Leave
+    OverEmptyLines:          1
+CommentPragmas:              '^ IWYU pragma:'
+
+# ----------------------------- 其它保守选项 ----------------------------------
+SortIncludes:                false     # 不重排 #include(顺序是手工安排的)
+IndentPPDirectives:          None      # #define/#if 顶格
+# 下面两项为"保持本工程既有手工对齐"而打开:
+#   声明  -> uint8_t  level;        / uint32_t edge_ms;
+#   赋值  -> s_fx[idx].fx        = ...;
+# 关掉它们会让 clang-format 把这些对齐压成单空格, 反而产生更多无意义改动。
+AlignConsecutiveDeclarations: true
+AlignConsecutiveAssignments:  true
+AlignConsecutiveMacros:      false
+AlignOperands:               true
+BreakBeforeBinaryOperators:  None
+BinPackArguments:            true
+BinPackParameters:           true
+AllowAllParametersOfDeclarationOnNextLine: true
+
+# ----------------------------- 文件结尾(重点) --------------------------------
+# 文件末尾必须且只能有一个换行符: Keil 提示 "last line of file ends without a
+# newline" 的根因就是这里; VSCode 侧的 files.insertFinalNewline 与之呼应。
+InsertNewlineAtEOF:          true

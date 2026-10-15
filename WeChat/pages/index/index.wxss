@@ -1,0 +1,36 @@
+.container {
+  padding: 40rpx;
+}
+.title {
+  font-size: 40rpx;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40rpx;
+}
+.status {
+  font-size: 30rpx;
+  color: #333;
+  margin-bottom: 30rpx;
+  padding: 20rpx;
+  background: #f5f5f5;
+  border-radius: 10rpx;
+}
+.btn {
+  margin: 20rpx 0;
+}
+.send {
+  background-color: #07c160;
+  color: #fff;
+}
+.disconnect {
+  background-color: #eee;
+}
+.log {
+  margin-top: 30rpx;
+  font-size: 26rpx;
+  color: #666;
+  word-break: break-all;
+  padding: 20rpx;
+  background: #fafafa;
+  border-radius: 10rpx;
+}

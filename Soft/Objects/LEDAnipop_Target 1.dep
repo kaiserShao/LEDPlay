@@ -1,0 +1,599 @@
+Dependencies for Project 'LEDAnipop', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARM_Compiler_5.06u7
+F (.\Src\main.c)(0x6AC388D4)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\Inc\bsp_config.h)(0x6ACB0C75)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (.\Inc\bsp_util.h)(0x6ABBC64C)
+I (.\Inc\bsp_time.h)(0x6ABBCC48)
+I (.\Inc\bsp_rtos.h)(0x6ABBD5BB)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x66CC8EEA)
+I (.\Inc\drv_key.h)(0x6ABBD713)
+I (.\Inc\drv_power.h)(0x6ABBC9ED)
+I (.\Inc\drv_ws2812.h)(0x6AC1F6FC)
+I (.\Inc\drv_keyled.h)(0x6AC36488)
+I (.\Inc\drv_hc595.h)(0x6ABBC87E)
+I (.\Inc\drv_esp32.h)(0x6AC34C7C)
+I (.\Inc\drv_wt2003h.h)(0x6ACA2E91)
+I (.\Inc\app_led_fx.h)(0x6ABBCA29)
+I (.\Inc\app_cmd.h)(0x6ACA2F82)
+I (.\Inc\app_task.h)(0x6AC34D8D)
+I (.\Inc\app_wsgame.h)(0x6ACA2EA6)
+F (.\Src\app_cmd.c)(0x6ACA2F2B)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\app_cmd.o --omf_browse .\objects\app_cmd.crf --depend .\objects\app_cmd.d)
+I (.\Inc\app_cmd.h)(0x6ACA2F82)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (.\Inc\drv_esp32.h)(0x6AC34C7C)
+I (.\Inc\bsp_config.h)(0x6ACB0C75)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (.\Inc\drv_key.h)(0x6ABBD713)
+I (.\Inc\drv_power.h)(0x6ABBC9ED)
+I (.\Inc\drv_ws2812.h)(0x6AC1F6FC)
+I (.\Inc\drv_keyled.h)(0x6AC36488)
+I (.\Inc\drv_hc595.h)(0x6ABBC87E)
+I (.\Inc\drv_wt2003h.h)(0x6ACA2E91)
+I (.\Inc\app_led_fx.h)(0x6ABBCA29)
+I (.\Inc\app_wsgame.h)(0x6ACA2EA6)
+I (.\Inc\bsp_time.h)(0x6ABBCC48)
+I (.\Inc\bsp_rtos.h)(0x6ABBD5BB)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x66CC8EEA)
+I (.\Inc\bsp_util.h)(0x6ABBC64C)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E3CC2)
+F (.\Src\app_led_fx.c)(0x6ABBD99B)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\app_led_fx.o --omf_browse .\objects\app_led_fx.crf --depend .\objects\app_led_fx.d)
+I (.\Inc\app_led_fx.h)(0x6ABBCA29)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (.\Inc\bsp_config.h)(0x6ACB0C75)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (.\Inc\drv_ws2812.h)(0x6AC1F6FC)
+I (.\Inc\bsp_time.h)(0x6ABBCC48)
+F (.\Src\app_wsgame.c)(0x6ACB0C77)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\app_wsgame.o --omf_browse .\objects\app_wsgame.crf --depend .\objects\app_wsgame.d)
+I (.\Inc\app_wsgame.h)(0x6ACA2EA6)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (.\Inc\bsp_config.h)(0x6ACB0C75)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (.\Inc\drv_key.h)(0x6ABBD713)
+I (.\Inc\app_led_fx.h)(0x6ABBCA29)
+I (.\Inc\bsp_time.h)(0x6ABBCC48)
+I (.\Inc\drv_esp32.h)(0x6AC34C7C)
+I (.\Inc\drv_hc595.h)(0x6ABBC87E)
+I (.\Inc\drv_keyled.h)(0x6AC36488)
+I (.\Inc\drv_ws2812.h)(0x6AC1F6FC)
+I (.\Inc\drv_wt2003h.h)(0x6ACA2E91)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+F (.\Src\app_task.c)(0x6AC353C3)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\app_task.o --omf_browse .\objects\app_task.crf --depend .\objects\app_task.d)
+I (.\Inc\app_task.h)(0x6AC34D8D)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (.\Inc\bsp_rtos.h)(0x6ABBD5BB)
+I (.\Inc\bsp_config.h)(0x6ACB0C75)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x66CC8EEA)
+I (.\Inc\drv_key.h)(0x6ABBD713)
+I (.\Inc\drv_power.h)(0x6ABBC9ED)
+I (.\Inc\drv_ws2812.h)(0x6AC1F6FC)
+I (.\Inc\drv_keyled.h)(0x6AC36488)
+I (.\Inc\drv_esp32.h)(0x6AC34C7C)
+I (.\Inc\drv_wt2003h.h)(0x6ACA2E91)
+I (.\Inc\app_led_fx.h)(0x6ABBCA29)
+I (.\Inc\app_cmd.h)(0x6ACA2F82)
+I (.\Inc\app_wsgame.h)(0x6ACA2EA6)
+F (.\Src\bsp_exti.c)(0x6ABBC69A)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\bsp_exti.o --omf_browse .\objects\bsp_exti.crf --depend .\objects\bsp_exti.d)
+I (.\Inc\bsp_exti.h)(0x6ABBC69C)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+I (.\Inc\bsp_config.h)(0x6ACB0C75)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+F (.\Src\bsp_time.c)(0x6ABBCC78)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\bsp_time.o --omf_browse .\objects\bsp_time.crf --depend .\objects\bsp_time.d)
+I (.\Inc\bsp_time.h)(0x6ABBCC48)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (.\Inc\bsp_config.h)(0x6ACB0C75)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+F (.\Src\bsp_util.c)(0x6ABBC65C)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\bsp_util.o --omf_browse .\objects\bsp_util.crf --depend .\objects\bsp_util.d)
+I (.\Inc\bsp_util.h)(0x6ABBC64C)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+I (.\Inc\bsp_config.h)(0x6ACB0C75)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+F (.\Src\bsp_rtos.c)(0x6ABBD688)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\bsp_rtos.o --omf_browse .\objects\bsp_rtos.crf --depend .\objects\bsp_rtos.d)
+I (.\Inc\bsp_rtos.h)(0x6ABBD5BB)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (.\Inc\bsp_config.h)(0x6ACB0C75)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x66CC8EEA)
+I (.\Inc\bsp_time.h)(0x6ABBCC48)
+I (.\Inc\bsp_util.h)(0x6ABBC64C)
+F (.\Src\drv_key.c)(0x6ABBD70B)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\drv_key.o --omf_browse .\objects\drv_key.crf --depend .\objects\drv_key.d)
+I (.\Inc\drv_key.h)(0x6ABBD713)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (.\Inc\bsp_config.h)(0x6ACB0C75)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (.\Inc\bsp_exti.h)(0x6ABBC69C)
+I (.\Inc\bsp_rtos.h)(0x6ABBD5BB)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x66CC8EEA)
+I (.\Inc\bsp_time.h)(0x6ABBCC48)
+I (.\Inc\bsp_util.h)(0x6ABBC64C)
+F (.\Src\drv_ws2812.c)(0x6AC1F816)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\drv_ws2812.o --omf_browse .\objects\drv_ws2812.crf --depend .\objects\drv_ws2812.d)
+I (.\Inc\drv_ws2812.h)(0x6AC1F6FC)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (.\Inc\bsp_config.h)(0x6ACB0C75)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (.\Inc\bsp_rtos.h)(0x6ABBD5BB)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x66CC8EEA)
+I (.\Inc\bsp_time.h)(0x6ABBCC48)
+I (.\Inc\bsp_util.h)(0x6ABBC64C)
+F (.\Src\drv_keyled.c)(0x6AC36788)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\drv_keyled.o --omf_browse .\objects\drv_keyled.crf --depend .\objects\drv_keyled.d)
+I (.\Inc\drv_keyled.h)(0x6AC36488)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (.\Inc\bsp_config.h)(0x6ACB0C75)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (.\Inc\bsp_rtos.h)(0x6ABBD5BB)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x66CC8EEA)
+I (.\Inc\bsp_time.h)(0x6ABBCC48)
+I (.\Inc\bsp_util.h)(0x6ABBC64C)
+F (.\Src\drv_hc595.c)(0x6AC2495D)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\drv_hc595.o --omf_browse .\objects\drv_hc595.crf --depend .\objects\drv_hc595.d)
+I (.\Inc\drv_hc595.h)(0x6ABBC87E)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (.\Inc\bsp_config.h)(0x6ACB0C75)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (.\Inc\bsp_time.h)(0x6ABBCC48)
+F (.\Src\drv_esp32.c)(0x6AC34E02)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\drv_esp32.o --omf_browse .\objects\drv_esp32.crf --depend .\objects\drv_esp32.d)
+I (.\Inc\drv_esp32.h)(0x6AC34C7C)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (.\Inc\bsp_config.h)(0x6ACB0C75)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (.\Inc\drv_ringbuf.h)(0x6ABBC64A)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (.\Inc\bsp_rtos.h)(0x6ABBD5BB)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x66CC8EEA)
+I (.\Inc\bsp_time.h)(0x6ABBCC48)
+I (.\Inc\bsp_util.h)(0x6ABBC64C)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E3CC2)
+F (.\Src\drv_wt2003h.c)(0x6ACA2E93)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\drv_wt2003h.o --omf_browse .\objects\drv_wt2003h.crf --depend .\objects\drv_wt2003h.d)
+I (.\Inc\drv_wt2003h.h)(0x6ACA2E91)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (.\Inc\bsp_config.h)(0x6ACB0C75)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (.\Inc\drv_ringbuf.h)(0x6ABBC64A)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (.\Inc\bsp_rtos.h)(0x6ABBD5BB)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x66CC8EEA)
+I (.\Inc\bsp_time.h)(0x6ABBCC48)
+F (.\Src\drv_power.c)(0x6ABBD72C)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\drv_power.o --omf_browse .\objects\drv_power.crf --depend .\objects\drv_power.d)
+I (.\Inc\drv_power.h)(0x6ABBC9ED)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (.\Inc\bsp_config.h)(0x6ACB0C75)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (.\Inc\bsp_exti.h)(0x6ABBC69C)
+I (.\Inc\bsp_rtos.h)(0x6ABBD5BB)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x66CC8EEA)
+I (.\Inc\bsp_time.h)(0x6ABBCC48)
+F (.\Inc\bsp_config.h)(0x6ACB0C75)()
+F (.\Inc\bsp_rtos.h)(0x6ABBD5BB)()
+F (.\Inc\app_task.h)(0x6AC34D8D)()
+F (.\Inc\app_wsgame.h)(0x6ACA2EA6)()
+F (C:/Users/Kaiser/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/LIB/ARM/RTX_CM3.lib)(0x66CC8EEA)()
+F (RTE/CMSIS/RTX_Conf_CM.c)(0x6ABBDB13)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\rtx_conf_cm.o --omf_browse .\objects\rtx_conf_cm.crf --depend .\objects\rtx_conf_cm.d)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x66CC8EEA)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x66CC8EEA)
+F (C:/Users/Kaiser/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/misc.c)(0x675D8AF5)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+F (C:/Users/Kaiser/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_dma.c)(0x675D8AF5)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\stm32f10x_dma.o --omf_browse .\objects\stm32f10x_dma.crf --depend .\objects\stm32f10x_dma.d)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+F (C:/Users/Kaiser/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_exti.c)(0x675D8AF5)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+F (C:/Users/Kaiser/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_flash.c)(0x675D8AF5)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+F (C:/Users/Kaiser/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c)(0x675D8AF5)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+F (C:/Users/Kaiser/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c)(0x675D8AF5)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+F (C:/Users/Kaiser/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c)(0x675D8AF5)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+F (C:/Users/Kaiser/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c)(0x675D8AF5)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
+F (RTE/Device/STM32F103RC/RTE_Device.h)(0x675D8AF5)()
+F (RTE/Device/STM32F103RC/startup_stm32f10x_hd.s)(0x675D8AF5)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork -I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc--pd "__UVISION_VERSION SETA 540" --pd "STM32F10X_HD SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (RTE/Device/STM32F103RC/stm32f10x_conf.h)(0x675D8AF5)()
+F (RTE/Device/STM32F103RC/system_stm32f10x.c)(0x675D8AF5)(--c99 --gnu -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Inc-I.\RTE\Device\STM32F103RC-I.\RTE\_Target_1-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="540" -DSTM32F10X_HD -D_RTE_-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x675D8AF5)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6ABBBABA)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66CC8EE7)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x675D8AF5)
+I (.\RTE\Device\STM32F103RC\stm32f10x_conf.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x675D8AF5)
+I (C:\Users\Kaiser\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x675D8AF5)
